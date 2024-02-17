@@ -1,0 +1,33 @@
+
+
+
+
+iframe{
+    width: 100%;
+}
+.caja{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+    text-align: center;
+}
+.caja_informacion, .clasex{
+    color: rgb(255, 255, 255);
+    background-color: rgb(75, 53, 12);
+}
+.fondo, .clasey{
+    background-color: rgb(211, 138, 28);
+}
+
+@media screen and (max-width: 768px) {
+    p {
+      font-size: 1.5rem;
+    }
+  }
+  img {
+    max-width: 100%;
+    width: 1000px; // Assume this is the default size.
+  }
+  body{
+    background-color: rgb(255, 234, 207);
+  }
